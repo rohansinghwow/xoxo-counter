@@ -1,5 +1,7 @@
 function XO(str){
+    str.toLowerCase();
     let store = str.split("")
+    
     let xcounter = 0;
     let ocounter =0;
     for(let  i=0;i<str.length;i++){
